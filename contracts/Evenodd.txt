@@ -1,0 +1,38 @@
+contract even {
+    uint256 public first;
+   
+
+    function setFirst(uint256 n) public  { 
+        first = n;
+    }
+     function cala( ) public returns(uint256) {
+       if (first % 2 == 0) {
+        return 1;
+       }
+       else {return 0;}
+    }
+}
+
+contract cube {
+    uint256 public first;
+    uint256 public second;
+    uint256 public third;
+    uint256 public t;
+
+    function setFirst(uint256 n) public  { 
+        first = n;
+    }
+    function setSecond(uint256 m) public  { 
+        second= m;
+    }
+    function setThird(uint256 c) public  { 
+        third = c;
+    }
+     function cala( ) public returns(uint256) {
+      t = n + m + c;
+      t = t/3;
+       return t;
+     }
+}
+
+
